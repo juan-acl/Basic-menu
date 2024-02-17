@@ -27,12 +27,13 @@ namespace Laboratorio1_Programacion_Modular
             Console.WriteLine("7. Calculo de salario.");
             Console.WriteLine("8. Resulucion de sumatoria sigma.");
             Console.WriteLine("9. Ganador del partido.");
-            Console.WriteLine("10. Tabla de multiplicar");
-            Console.WriteLine("11. Numero perfecto");
+            Console.WriteLine("10. Tabla de multiplicar.");
+            Console.WriteLine("11. Numero perfecto.");
             Console.WriteLine("12. Dia de la semana.");
-            Console.WriteLine("13. Serie de Fibonacci");
-            Console.WriteLine("15. Serie de Fibonacci");
-            Console.WriteLine("0. Salir");
+            Console.WriteLine("13. Serie de Fibonacci.");
+            Console.WriteLine("14. Formula.");
+            Console.WriteLine("15. Numero positivo/negativo/nulo.");
+            Console.WriteLine("0. Salir.");
             try
             {
                 opInput = int.Parse(Console.ReadLine());
@@ -60,6 +61,7 @@ namespace Laboratorio1_Programacion_Modular
                 mapOp[11] = PerfectNumber;
                 mapOp[12] = Week;
                 mapOp[13] = Fibonnacci;
+                mapOp[14] = FormulaResolucion;
                 mapOp[15] = TypeNumber;
                 mapOp[opInput]();
                 if (opInput != 0) Menu();
@@ -367,7 +369,28 @@ namespace Laboratorio1_Programacion_Modular
             }
             Console.ReadKey();
         }
-        // ? falta una funcion la 14
+        static void FormulaResolucion()
+        {
+            Console.Clear();
+            Console.WriteLine("-----Resolucion de formula-----");
+            Console.WriteLine("Ingrese el valor de r");
+            int r = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor de n");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor de P");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("El resultado de la formula es: " + Formula(r, n, p));
+            Console.ReadKey();
+        }
+        static int Formula(int r, int n, int p)
+        {
+            double first = 1 + r;
+            double numerador = r * (Math.Pow(first, n));
+            double denominador = Math.Pow(first, n) - 1;
+            double A = (numerador / denominador) * p;
+            return (int)A;
+
+        }
         static void TypeNumber()
         {
             Console.Clear();
