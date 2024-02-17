@@ -1,0 +1,7 @@
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\bin\Debug\Laboratorio1-Programacion-Modular.exe.config
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\bin\Debug\Laboratorio1-Programacion-Modular.exe
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\bin\Debug\Laboratorio1-Programacion-Modular.pdb
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\obj\Debug\Laboratorio1-Programacion-Modular.csproj.AssemblyReference.cache
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\obj\Debug\Laboratorio1-Programacion-Modular.csproj.CoreCompileInputs.cache
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\obj\Debug\Laboratorio1-Programacion-Modular.exe
+D:\Escritorio\C#\Laboratorio1-Programacion-Modular\Laboratorio1-Programacion-Modular\obj\Debug\Laboratorio1-Programacion-Modular.pdb
